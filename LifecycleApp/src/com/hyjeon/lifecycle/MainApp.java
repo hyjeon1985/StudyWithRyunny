@@ -7,6 +7,6 @@ public class MainApp {
 	public static void main(String[] args) {
 		
 		// 라이브러리 구동.
-		Lib.doSometing();
+		Lib.doSomething();
 	}
 }
