@@ -1,5 +1,8 @@
 package com.hyjeon.lifecycle.lib;
 
+import com.hyjeon.lifecycle.lib.a.SubModuleA;
+import com.hyjeon.lifecycle.lib.b.SubModuleB;
+
 /**
  * Context
  * 
@@ -50,5 +53,13 @@ class Context extends Thread {
 	
 	private void onDestroy() {
 		this.mCore.onDestroy(this);
+	}
+
+	public void setOnCreateStateAction(SubModuleA subModuleA) {
+
+	}
+
+	public void setOnDestroyStateAction(SubModuleB subModuleB) {
+
 	}
 }
