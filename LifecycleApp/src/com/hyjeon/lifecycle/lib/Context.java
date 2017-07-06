@@ -29,7 +29,7 @@ class Context extends Thread {
 	public void run() {
 	
 		this.onCreate();
-		
+
 		try {
 			Thread.sleep(LIFESPAN);
 		} catch (InterruptedException e) {
